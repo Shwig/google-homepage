@@ -1,0 +1,38 @@
+div {
+    display: inline-block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#left {
+    margin-right: 50%;
+}
+
+#left li {
+    float: left;
+    padding: 1em;
+}
+
+#right {
+    margin-left: 25%;
+    margin-right: 0;
+}
+#right li {
+    float: right;
+    padding: 1em;
+}
+
+#logo {
+    margin: 0 40%;
+    text-align: center;
+}
+
+#search {
+    margin: 2% 40%;
+}
