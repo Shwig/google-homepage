@@ -1,3 +1,7 @@
+body {
+    font-size: small;
+}
+
 div {
     display: inline-block;
     margin: auto;
@@ -8,31 +12,44 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-#left {
-    margin-right: 50%;
-}
-
-#left li {
     float: left;
-    padding: 1em;
 }
 
-#right {
+ul.right {
+    float: right;
     margin-left: 25%;
     margin-right: 0;
 }
-#right li {
-    float: right;
-    padding: 1em;
+
+li {
+    float: left;
 }
 
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    background-color: #fff;
+    color: #222;
+  }
+
 #logo {
-    margin: 0 40%;
+    display: inline;
+    margin: 5% 40%;
     text-align: center;
+    
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 #search {
-    margin: 2% 40%;
+    margin: 0 40%;
+}
+
+input[type=text] {
+    width: 100%;
 }
